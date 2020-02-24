@@ -6,7 +6,7 @@ A GitHub repository for us to use to practice branching and merging. Developed f
 
 For example, to calculate the square root of 25:
 ```
-python sqrt.py 25
+python sqrt.py --n=25
 ```
 
 ```
