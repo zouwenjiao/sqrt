@@ -2,10 +2,10 @@
 # date: 2020-02-23
 
 """Calculates and prints the square root of a given number.
-Usage: sqrt.py <number>
+Usage: sqrt.py --n=<n>
 
 Options:
-<number>    Number for which the square root should be calculated
+--n=<n>    Number for which the square root should be calculated
 """
 
 from docopt import docopt
@@ -16,6 +16,7 @@ opt = docopt(__doc__)
 def main(number):
   number = int(number)
   print(math.sqrt(number))
+    
 
 if __name__ == "__main__":
-  main(opt["<number>"])
+  main(opt["--n"])
